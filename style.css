@@ -1,0 +1,21 @@
+.strikethrough {
+    text-decoration: line-through;
+    user-select: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Zilla Slab', serif;
+    background-color: lightblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    margin: 15px;
+    background-color: lightgoldenrodyellow;
+}

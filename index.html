@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+</head>
+<body>
+    <h1>Your To-Do List</h1>
+    <form id="to-do-list" onsubmit="return false">
+        <label>Enter the things you need to do seperated by a comma:</label><br>
+        <input type="text" id ="items" name="todo" placeholder="ex. clean car, walk dog, shine silver" autocomplete="off"></input><br>
+        <input type="submit" value="submit" onclick="createList()"></input>
+    </form>
+    <div id="display">
+        <ul id="list">
+        </ul>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
